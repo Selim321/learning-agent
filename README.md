@@ -37,7 +37,17 @@ This program uses Q-learning, a reinforcement learning algorithm, to train the a
     * The exploration rate decreases over time.
 
 4.  **Visualization:**
-    * After training, the agent's learned policy is visualized using arrows, showing the optimal action for each state.
+The visualization of the agent's learned policy uses arrows to represent the optimal action the agent should take in each state.
+
+* **Arrows:** Each arrow indicates the direction the agent should move when it's in the corresponding cell.
+    * **Left:** An arrow pointing left.
+    * **Down:** An arrow pointing down.
+    * **Right:** An arrow pointing right.
+    * **Up:** An arrow pointing up.
+* **Grid:** The grid represents the Frozen Lake environment. Each cell in the grid corresponds to a state (a position) on the lake.
+* **Interpretation:** By following the arrows from the starting cell (top-left) to the goal cell (bottom-right), you can trace the agent's learned path to reach the goal without falling into any holes.
+
+The agent has learned to navigate the lake by determining the optimal action for each state, maximizing its chances of reaching the goal.
 
 ## Hyperparameters
 
