@@ -72,4 +72,3 @@ The web app allows you to interact with the Frozen Lake environment, adjust hype
 3.  Run the Streamlit app: `streamlit run streamlit_frozen_lake.py`
 
 Enjoy exploring Reinforcement Learning!
-```
