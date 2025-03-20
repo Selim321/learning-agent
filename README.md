@@ -60,15 +60,14 @@ The web app allows you to interact with the Frozen Lake environment, adjust hype
 
 ## Project Files
 
-* `qlearning_agent.py`: Contains the Q-learning agent implementation.
-* `streamlit_frozen_lake.py`: Contains the Streamlit web application code.
-* `frozen_lake_environment.py`: contains the frozen lake environment.
+* `rl_agent.py`: Contains the Q-learning agent implementation.
+* `app.py`: Contains the frozen lake environment and the Streamlit web application code.
 * `README.md`: This file.
 
 ## How to Run
 
 1.  Clone the repository.
 2.  Install the required dependencies: `pip install streamlit numpy matplotlib`
-3.  Run the Streamlit app: `streamlit run streamlit_frozen_lake.py`
+3.  Run the Streamlit app: `streamlit run app.py`
 
 Enjoy exploring Reinforcement Learning!
