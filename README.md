@@ -1,5 +1,7 @@
 # Reinforcement Learning Demo: Frozen Lake
 
+![Frozen Lake Demo](images/frozen_lake_demo.png)
+
 This project demonstrates a Reinforcement Learning (RL) agent learning to navigate a Frozen Lake environment using the Q-learning algorithm. The agent's goal is to reach the goal state without falling into any holes.
 
 ## The Frozen Lake Game
